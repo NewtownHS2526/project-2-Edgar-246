@@ -3,27 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Hub</title>
+    <title>Project Overview</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="#">Page 2</a>
-        <a href="#">Page 3</a>
-        <a href="#">Page 4</a>
-        <a href="#">Page 5</a>
-        <a href="#">Page 6</a>
+  <body class="bg-[url(backgroundimage.jpg)]">
+    <header class="flex space-x-4">
+      <nav class="border border-solid rounded bg-green-500 mb-4">
+        <a href="index.html" class="font-bold visited: text-blue-600 underline mr-1">Home</a>
+        <a href="page2.html" class="font-bold visited: text-blue-600 underline mr-1">Page 2</a>
+        <a href="page3.html" class="font-bold visited: text-blue-600 underline mr-1">Page 3</a>
+        <a href="page4.html" class="font-bold visited: text-blue-600 underline mr-1">Page 4</a>
+        <a href="page5.html" class="font-bold visited: text-blue-600 underline mr-1">Page 5</a>
+        <a href="page6.html" class="font-bold visited: text-blue-600 underline mr-1">Page 6</a>
       </nav>
     </header>
     <main>
       <section>
-        <h1>Project Overview</h1>
-        <p>Welcome! Replace this text with your project introduction.</p>
+        <h1 class="text-4xl font-bold text-green-600 underline font-serif flex-wrap">Forest Hub</h1>
+        <img class="h-60 border border-solid rounded mx-40 flex-wrap" src="Tree.jpg"/> 
+        <p class="mx-9 shadow-lg bg-green-800 border border-solid rounded font-serif mb-4 flex-wrap">Welcome to Forest Hub where we inform people about the different kinds of forests in the world so that efforts to protect them can increase. If people are not informed then more and more forests will be cut down for properties or materials which will impact many animals living areas and also increase Global Warming since forests are huge in decreasing Carbon Dioxide.</p>
+        <p class="mx-9 shadow-lg bg-green-800 border border-solid rounded font-serif mb-4 flex-wrap">We will talk about many forests such as the Amazon Rainforest, Congo Basin, Borneo Rainforest, Atlantic Forest, and forests in New Zealand.</p>
       </section>
     </main>
+    <div class="flex flex-col">
+    <div>Amazon Rainforest</div>
+  <div>Congo Basin</div>
+  <div>Borneo Rainforest</div>
+  <div>Atlantic Forest</div>
+  <div>Forests in New Zealand</div>
+  </div>
     <footer>
-      <small>&copy; 2025 Project Hub</small>
+      <small class="text-3x1 font-bold bg-white">&copy; 2025 Project Hub</small>
     </footer>
   </body>
 </html>
